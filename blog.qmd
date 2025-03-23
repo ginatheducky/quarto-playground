@@ -1,0 +1,11 @@
+---
+title: "My Blog"
+listing:
+    contents: posts
+    sort: "date desc"
+    categories: true
+    sort-ui: true
+    filter-ui: true
+page-layout: full
+title-block-banner: false
+---

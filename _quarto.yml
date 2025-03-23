@@ -5,10 +5,13 @@ project:
 website:
   title: "quarto-playground"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: About
+        href: about.qmd
 
 format:
   html:
