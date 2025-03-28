@@ -81,7 +81,7 @@ cc.run({
                     }, {
                         //DN title: 'Performance and Analytics cookies',
                         title: 'Analytics script',
-                        description: 'This script collects information about website interactions, and your IP address, to our analytics partner Plausibe',
+                        description: 'At the moment, I have no script setup... so this is just for testing.',
                         toggle: {
                             value: 'analytics',     // your cookie category
                             enabled: false,
@@ -112,7 +112,7 @@ cc.run({
                         }
                     }*/, {
                         title: 'More information',
-                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://calcwithdec.dev/about">get in touch</a>.'
+                        description: 'For any queries in relation to our policy on cookies and your choices, please <a class="cc-link" href="https://ginatheducky.github.io/quarto-playground/about.html">get in touch</a>.'
                     }
                 ]
             }
