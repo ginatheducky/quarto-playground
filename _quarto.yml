@@ -6,6 +6,7 @@ website:
   title: "quarto-playground"
   page-footer:
     left: "Copyright 2025, ginatheducky"
+    center: '<a type="button" data-cc="c-settings" class="cc-link">Cookies/analytics preferences</a>'
     right:
       - text: Privacy Policy
         href: privacy-policy.qmd
@@ -25,6 +26,13 @@ format:
     theme: [custom.scss, cosmo]
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="/resources/cookieconsent-2.9.2/dist/cookieconsent.css" media="print" onload="this.media='all'">
+    include-after-body: # cookieconsent.html
+      - text: |
+          <script defer src="/resources/cookieconsent-2.9.2/dist/cookieconsent.js"></script> |
+          <script defer src="/cookieconsent-init.js"></script>
 
 execute:
   freeze: auto
