@@ -1,0 +1,18 @@
+---
+title: "Privacy Policy"
+---
+
+## Content Delivery Networks & external resources
+This website includes resources from Content Delivery Network services such as JsDelivr, Cloudflare and other remote sources.
+These third parties recieve your IP address whenever resources are accessed.
+
+## Cookie banner
+This website uses a cookie banner to present you with privacy-related preferences. You can re-open these preferences via “Cookies/analytics preferences” at the bottom of each page on the website.
+
+Regardless of your chosen preferences, “essential” cookies are used to store those preferences.
+
+## Analytics
+Right now, this website doesn't use website analytics.
+
+## Changes to this privacy policy
+This privacy policy and details about website features described are subject to change. You can find a history of changes on GitHub.

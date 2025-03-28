@@ -4,6 +4,13 @@ project:
 
 website:
   title: "quarto-playground"
+  page-footer:
+    left: "Copyright 2025, ginatheducky"
+    right:
+      - text: Privacy Policy
+        href: privacy-policy.qmd
+      - text: License
+        href: license.qmd
   navbar:
     right:
       - text: Home
@@ -15,9 +22,7 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: [custom.scss, cosmo]
     css: styles.css
     toc: true
 
