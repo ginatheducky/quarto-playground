@@ -1,11 +1,13 @@
 ---
 title: "My Blog"
 listing:
+    template: templates/my-listing.ejs
     contents: posts
     sort: "date desc"
     categories: true
     sort-ui: true
     filter-ui: true
+    page-size: 2
 page-layout: full
 title-block-banner: false
 ---

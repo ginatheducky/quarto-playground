@@ -1,6 +1,6 @@
 ---
-title: "Post With Code"
-description: "Post description"
+title: "Another Post"
+description: "This is just a description."
 author: "Jane Doe"
 date: "5/22/2021"
 image: electro.jpg

@@ -1,0 +1,10 @@
+<ul class="list-group">
+<% for (const item of items) { %>
+  <li class="list-group-item">
+    <a href="<%- item.path %>"><%= item.title %></a>
+    <p><%= item.description %></p>
+    <p><%= item.date %></p>
+    
+  </li>
+<% } %>
+</ul>
