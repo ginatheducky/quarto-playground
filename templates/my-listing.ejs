@@ -1,10 +1,50 @@
-<ul class="list-group">
-<% for (const item of items) { %>
-  <li class="list-group-item">
-    <a href="<%- item.path %>"><%= item.title %></a>
-    <p><%= item.description %></p>
-    <p><%= item.date %></p>
-    
-  </li>
-<% } %>
+```{=html}
+
+<ul class="list list-unstyled">
+  <% for (const item of items) { %>
+    <li class="mb-3" <%= metadataAttrs(item) %>>
+      <div class="card shadow-sm">
+        <div class="grid">
+
+          <!-- CONTENT -->
+          <div class="g-col-8">
+            <div class="card-body">
+              <a class="listing-title h5 d-block mb-1" href="<%- item.path %>"><%= item.title %></a>
+              <div class="listing-date text-muted small mb-2"><%= item.date %></div>
+
+              <div class="listing-categories mb-2">
+                <% for (const category of item.categories) { %>
+                  <a class="listing-category me-1"
+                     href="#"
+                     onclick="window.quartoListingCategory('<%= utils.b64encode(category) %>'); return false;">
+                    <%= category %>
+                  </a>
+                <% } %>
+              </div>
+
+              <div class="listing-description line-clamp-3"><%= item.description %></div>
+            </div>
+          </div>
+
+          <!-- IMAGE -->
+          <div class="g-col-4">
+            <% if (item.image) { %>
+              <a href="<%- item.path %>">
+                <img src="<%- item.image %>"
+                     class="img-fluid h-100 w-100 object-fit-cover rounded-end"
+                     alt="<%= item.title %>">
+              </a>
+            <% } else { %>
+              <div class="h-100 d-flex align-items-center justify-content-center text-muted">
+                Image Placeholder
+              </div>
+            <% } %>
+          </div>
+
+        </div>
+      </div>
+    </li>
+  <% } %>
 </ul>
+
+```

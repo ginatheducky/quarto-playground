@@ -1,5 +1,12 @@
 ---
 title: "quarto-playground"
+listing:
+  template: templates/custom.ejs
+  contents:
+    - items.yml
+  sort-ui: true
+  filter-ui: true
+  page-size: 10
 ---
 
 This is a Quarto website.

@@ -2,12 +2,11 @@
 title: "Another Post"
 description: "This is just a description."
 author: "Jane Doe"
-date: "5/22/2021"
+date: "5/23/2021"
 image: electro.jpg
 categories:
   - news
-  - code
-  - analysis
+  - galxy
 ---
 
 ## Second headline

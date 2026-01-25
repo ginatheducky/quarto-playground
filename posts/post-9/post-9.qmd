@@ -2,7 +2,7 @@
 title: "The posting can begin"
 description: "uisque non sem nec dui tempus porta nec eget nibh. Ut porttitor aliquet dolor. Ut sit amet velit tempus, venenatis arcu sed, accumsan urna."
 author: "Jane Doe"
-date: "5/22/2021"
+date: "5/24/2021"
 image: print.jpg
 categories:
   - news

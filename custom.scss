@@ -1,2 +1,12 @@
 /*-- scss:rules --*/
 $web-font-path: false;  // disable Google Fonts
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+
+  /* modern spec (harmless where unsupported) */
+  line-clamp: 3;
+}
