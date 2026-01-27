@@ -1,6 +1,7 @@
 /*-- scss:rules --*/
 $web-font-path: false;  // disable Google Fonts
 
+
 .line-clamp-3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -9,4 +10,13 @@ $web-font-path: false;  // disable Google Fonts
 
   /* modern spec (harmless where unsupported) */
   line-clamp: 3;
+}
+
+
+.btn-tag {
+  --bs-btn-padding-y: 0.15rem; 
+  --bs-btn-padding-x: 0.25rem;
+  --bs-btn-font-size: 0.6rem;
+  --bs-btn-color: rgb(106, 115, 123);
+  --bs-btn-border-color: rgb(222, 226, 230);
 }

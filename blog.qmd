@@ -5,7 +5,7 @@ listing:
     contents: posts
     sort: "date desc"
     categories: true
-    sort-ui: true
+    sort-ui: false
     filter-ui: true
     page-size: 5
 page-layout: full
