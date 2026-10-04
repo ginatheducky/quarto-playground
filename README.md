@@ -4,6 +4,7 @@
 
 ![Quarto](https://img.shields.io/badge/built%20with-Quarto-75AADB)
 ![GitHub Pages](https://img.shields.io/badge/deployed%20with-GitHub%20Pages-222222)
+[![Deploy to GitHub Pages](https://github.com/ginatheducky/quarto-playground/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ginatheducky/quarto-playground/actions/workflows/pages/pages-build-deployment)
 ![Status](https://img.shields.io/badge/status-experimental-orange)
 
 ## 🌐 Live playground
