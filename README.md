@@ -21,7 +21,9 @@ So far, experiments include:
 - experimenting with Quarto website configuration, navigation, themes, CSS and SCSS
 - testing blog layouts and other small Quarto features
 
-The repository is intentionally experimental, so individual examples may change, be incomplete, or exist purely for testing purposes.
+The site is automatically rendered and deployed to GitHub Pages with **GitHub Actions** whenever changes are pushed to `main`.
+
+> **Note:** This is an experimental repository. Individual examples may change, be incomplete, or exist purely for testing purposes.
 
 ## Links
 
