@@ -1,4 +1,5 @@
-docs
+/_site/
 /.quarto/
+/docs/
 
 **/*.quarto_ipynb
