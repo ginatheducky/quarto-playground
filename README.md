@@ -11,6 +11,8 @@
 
 ### **[View the published site →](https://ginatheducky.github.io/quarto-playground/)**
 
+## Overview
+
 This repository is my testing ground for exploring and learning Quarto. I use it to try out website features, layouts, styling, and small experiments before integrating them into my main blog or other projects.
 
 So far, experiments include:
