@@ -8,7 +8,6 @@ website:
     type: express
   page-footer:
     left: "Copyright 2025, ginatheducky"
-    center: '<a type="button" data-cc="c-settings" class="cc-link">Cookies/analytics preferences</a>'
     right:
       - text: Privacy Policy
         href: privacy-policy.qmd
