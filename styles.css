@@ -1,1 +1,27 @@
 /* css styles */
+/* Neucha */
+@font-face {
+  font-family: "Neucha";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/neucha-latin-regular.woff2") format("woff2");
+}
+
+/* Cabin Sketch Regular */
+@font-face {
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/cabin-sketch-latin-regular.woff2") format("woff2");
+}
+
+/* Cabin Sketch Bold */
+@font-face {
+  font-family: "Cabin Sketch";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/cabin-sketch-latin-700.woff2") format("woff2");
+}
