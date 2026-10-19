@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: _site
 
+brand: _brand.yml
+
 website:
   title: "quarto-playground"
   cookie-consent:
@@ -26,6 +28,7 @@ format:
   html:
     theme:
       - sketchy
+      - brand
       - custom.scss
     css: styles.css
     toc: true
