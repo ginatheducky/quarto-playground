@@ -1,7 +1,6 @@
 ---
 title: "Another Post"
 description: "This is just a description."
-author: "Jane Doe"
 date: "5/23/2021"
 image: electro.jpg
 categories:

@@ -1,7 +1,6 @@
 ---
 title: "Post With Code"
 description: "Post description"
-author: "Jane Doe"
 image: space2.jpg
 date: "5/22/2021"
 categories:

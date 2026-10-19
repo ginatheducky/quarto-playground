@@ -1,8 +1,8 @@
 ---
 title: "My First Blog Post"
+subtitle: "This is a subtitle."
 date: "5/22/2021"
-description: "This is the first post of my new Astro blog."
-author: "Astro Learner"
+description: "This is the first post of my new Astro blog. Welcome to my new Quarto Blog."
 image: wine.jpg
 categories:
   - news

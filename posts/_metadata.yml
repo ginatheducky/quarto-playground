@@ -1,0 +1,11 @@
+# options specified here will apply to all posts
+
+# Author name of all blog posts
+author: "gina"
+
+# freeze computational output
+freeze: true
+
+# enable banner style title blocks
+title-block-banner: "#DEECFF"
+title-block-banner-color: "#1B365D"
