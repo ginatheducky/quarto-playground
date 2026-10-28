@@ -1,1 +1,10 @@
 /* css styles */
+
+
+.quote-box::before {
+  content: "❞";
+  display: block;
+  color: var(--bs-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
